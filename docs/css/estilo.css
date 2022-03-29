@@ -1,136 +1,121 @@
-* {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-  }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
 
-  body, html {
-    padding: 3px 3px 3px 3px;
-    background-image: linear-gradient(to right, hotpink,violet);
-    font-family: Verdana, sans-serif;
-    font-size: 15pt;
-    text-align: center;
-  }
-  
-  div{
-    position: relative;
-    display: table;
-    width: 800px;
-    margin-bottom: 3px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px 0px 0px 0px;
-    border-width: 2px;
-    border-color: #212738;
-    border-style: solid;
-    background-color: #FFFFFF;
-    text-align: center;
-  }
-  
-  a:link, a:visited {
-    background-color:hotpink;
-    color: white;
-    padding: 14px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
-  
-  a:hover, a:active {
-    background-color:hotpink;
-  }
-  
-  ul {
-      padding: 4px 8px 4px 16px;
-      text-align: left;
-  }
-  li{
-    margin-left: 50px;
-  }
-  
-  h1{
-    text-align:hotpink;
-  }
-  
-  h2{
-    text-align: left;
-  }
-  
-  h3{
-    color:hotpink;
-    padding-top: 15px;
-    Padding-bottom: 15px;
-  }
-  
-  p{
-    text-align: justify;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  
+
+body,
+html {
+  padding: 3px 3px 3px 3px;
+  background-image: linear-gradient(to right, hotpink, violet);
+  font-size: 15pt;
+  text-align: center;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+div {
+  margin: 0 auto;
+  text-align: center;
+}
+
+a:link,
+a:visited {
+  background-color: hotpink;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+ul {
+  padding: 4px 8px 4px 16px;
+  text-align: justify;
+}
+
+li {
+  margin-left: 50px;
+}
+
+h1 {
+  text-align: justify;
+}
+
+h2 {
+  text-align: justify;
+}
+
+h3 {
+  color: #fff;
+  padding-top: 15px;
+  Padding-bottom: 15px;
+}
+
+p {
+  text-align: justify;
+  padding-right: 50px;
+}
+
 .title {
   text-align: center;
   color: azure;
+}
 
-}  
+.a {
+  text-align: center;
+}
 
-.a{
-text-align: center;
+.menu > p {
+  text-align: center;
+  padding: 6px;
+  background-color: deeppink;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 18px;
+  transition: 2s;
+  margin: 18px 25px;
 }
-body{
-    margin: 0;
-    font-family: sans-serif;
-    font-size: x-large;
-    background:-moz-element();
-    color:aliceblue;
+
+.navegacao-menu {
+  margin-left: 14px;
+  top: 0;
+  left: 0;
+  background-color: deeppink;
+  width: 220px;
+  position: fixed;
+  padding-top: 120px;
+  display: inline-block;
+  line-height: 1.2;
 }
-.menu > p{ /*Meu nome*/
-    text-align: center;
-    padding: 6px;
-    font-family: 'Montserat';
-    background-color:deeppink;
-    font-size: x-large;
-    text-transform: uppercase ;
-    font-weight: bold;
-    border-radius: 18px;
-    transition: 2s;
-    margin: 18px 25px;
+
+#geral {
+  text-align: center;
 
 }
-.navegacao-menu{
-    margin-left: 14px;
-       top: 0 ;
-       left: 0;
-       background-color:deeppink;
-       height: 99%;
-       width: 220px;
-       position: fixed;
-       padding-top: 120px;
-       overflow-x: hidden;
-       overflow-y: hidden;
-       display: inline-block;
-       line-height: 1.2;
-   }
-       
-#geral{
-    text-align: center;
-    
-}  
-#hobbies{
-    text-align: center;
-    
+
+#hobbies {
+  text-align: center;
+
 }
-#experiencia{
-    text-align: center;
-    
+
+#experiencia {
+  text-align: left;
+
 }
-#capacidades{
-    text-align: center;
+
+#capacidades {
+  text-align: center;
 }
-#expectativas{
-    text-align: center;
-    
+
+#expectativas {
+  text-align: center;
+
 }
-#contato{
-    text-align: center;
-    
+
+#contato {
+  text-align: center;
 }
