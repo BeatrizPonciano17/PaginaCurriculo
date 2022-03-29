@@ -1,3 +1,7 @@
+.foto{
+    margin-top: auto;
+    border-radius: 10%;
+}
 body{
     margin: 0;
     font-family: sans-serif;
@@ -5,3 +9,47 @@ body{
     background:-moz-element();
     color: black;
 }
+.menu > p{ /*Meu nome*/
+    text-align: center;
+    padding: 6px;
+    font-family: 'Montserat';
+    background-color:deeppink;  
+    color: black;
+    font-size: x-large;
+    text-transform: uppercase ;
+    font-weight: bold;
+    border-radius: 18px;
+    transition: 2s;
+    margin: 18px 25px;
+    box-shadow:10px 10px 30px 8px  #000000 
+}
+.h1{
+    text-align: center;
+    padding: 6px;
+    font-family: 'Montserat';
+    background-color:deeppink;  
+    color: black;
+    font-size: x-large;
+    text-transform: uppercase ;
+    font-weight: bold;
+    border-radius: 18px;
+    transition: 2s;
+    margin: 18px 25px;
+    box-shadow:10px 10px 30px 8px  #000000 
+}
+.navegacao-menu{
+    margin-left: 14px;
+       top: 0 ;
+       left: 0;
+       background-color:deeppink;
+       height: 99%;
+       width: 220px;
+       position: fixed;
+       padding-top: 120px;
+       overflow-x: hidden;
+       overflow-y: hidden;
+       display: inline-block;
+       line-height: 1.2;
+   }
+       
+      
